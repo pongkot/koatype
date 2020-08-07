@@ -6,6 +6,7 @@ import { IUser } from "../service/UserService"
 
 const serviceProvider = ServiceProvider.getInstance()
 const userService: IUserService = serviceProvider.userService()
+
 const userRoute = new Router({
     prefix: '/user'
 })
