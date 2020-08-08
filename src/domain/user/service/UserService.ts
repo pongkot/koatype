@@ -1,4 +1,4 @@
-import ServiceCore from "../common/ServiceCore"
+import ServiceCore from "../../common/ServiceCore"
 import IUserService from "./IUserService"
 import { Observable, from } from 'rxjs'
 import { map, toArray } from 'rxjs/operators'

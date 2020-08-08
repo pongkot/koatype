@@ -1,4 +1,4 @@
-import UserService from "../service/UserService"
+import UserService from "../domain/user/service/UserService"
 
 export default class ServiceProvider {
     private static instance: ServiceProvider = new ServiceProvider()

@@ -1,8 +1,8 @@
-import RouterCore from "../common/RouterCore"
+import RouterCore from "../domain/common/RouterCore"
 import Router = require("@koa/router")
 import ServiceProvider from "../provider/ServiceProvider"
-import IUserService from "../service/IUserService"
-import { IUser } from "../service/UserService"
+import IUserService from "../domain/user/service/IUserService"
+import { IUser } from "../domain/user/service/UserService"
 
 const serviceProvider = ServiceProvider.getInstance()
 const userService: IUserService = serviceProvider.userService()
